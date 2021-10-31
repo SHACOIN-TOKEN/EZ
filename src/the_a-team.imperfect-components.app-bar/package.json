@@ -1,0 +1,24 @@
+{
+  "name": "the_a-team.imperfect-components.app-bar",
+  "version": "0.0.1",
+  "homepage": "https://bit.dev/the_a-team/imperfect-components/app-bar",
+  "main": "dist/AppBar/index.js",
+  "componentId": {
+    "scope": "the_a-team.imperfect-components",
+    "name": "app-bar",
+    "version": "0.0.1"
+  },
+  "dependencies": {
+    "prop-types": "15.7.2",
+    "react": "^16.13.1",
+    "@bit/the_a-team.imperfect-components.text": "0.0.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE",
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.20"
+    }
+  }
+}

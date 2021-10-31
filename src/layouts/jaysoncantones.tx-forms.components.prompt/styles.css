@@ -1,0 +1,11 @@
+/*** src/styles.css ***/
+
+h1 {
+  color: #222;
+}
+
+.tx-login-password-show-hide-button span {
+  border: 0px;
+  font-size: .8em;
+  font-weight: bold;
+}

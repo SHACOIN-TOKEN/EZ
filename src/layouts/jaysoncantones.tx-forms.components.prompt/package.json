@@ -1,0 +1,16 @@
+{
+  "name": "jaysoncantones.tx-forms.components.prompt",
+  "version": "1.0.8",
+  "homepage": "https://bitsrc.io/jaysoncantones/tx-forms/components/prompt",
+  "main": "dist/index.js",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.2.0",
+    "reactstrap": "^6.3.1",
+    "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "license": "SEE LICENSE IN LICENSE"
+}

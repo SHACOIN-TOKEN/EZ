@@ -1,0 +1,44 @@
+.app_bar{
+    display: block;
+    border-radius: 0 0 225px 15px/0 0 15px 255px;
+    border-bottom: solid 3px #41403E;
+    border-left: solid rgba(0,0,0,0);
+    margin-left: 10px;
+    margin-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.app_bar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.app_bar li {
+    display: inline;
+}
+
+.app_bar li a {
+    text-decoration: unset;
+    color: #ffffff;
+}
+
+.app_bar li a * {
+    color: #D2F9EE;
+    display:-webkit-box;
+}
+
+.app_bar li a *:hover {
+    color: rgb(110, 149, 138);
+    display:-webkit-box;
+}
+
+.app_bar .logo {
+    float: right;
+}
+
+@media screen and (max-width: 680px) {
+    .app_bar .logo {
+        display: none;
+    }
+}

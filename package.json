@@ -1,0 +1,70 @@
+{
+  "name": "FreedomIDOPlatform",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@bit/ans.base-ui.input": "^0.1.2",
+    "@bit/dev10.ui-library.make-request": "^1.1.6",
+    "@bit/digiaonline.react-foundation.internal.enums": "^0.9.6",
+    "@bit/eden.badjokes-components.button": "^1.0.1",
+    "@bit/jaysoncantones.tx-forms.components.prompt": "^1.0.8",
+    "@bit/learningmatters.urs.progress-component": "^0.0.1",
+    "@bit/nexxtway.react-rainbow.card": "^1.10.0",
+    "@bit/nexxtway.react-rainbow.progress-indicator": "^1.10.0",
+    "@bit/nexxtway.react-rainbow.progress-step": "^1.10.0",
+    "@bit/react-bootstrap.react-bootstrap.internal.style-links": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.progress-bar": "^1.0.0",
+    "@bit/the_a-team.imperfect-components.app-bar": "^0.0.1",
+    "@bit/wiredjs.wired-elements.wired-progress": "^1.0.0",
+    "@supabase/supabase-js": "^1.21.0",
+    "@walletconnect/client": "^1.5.2",
+    "@walletconnect/qrcode-modal": "^1.5.2",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "crypto-js": "^4.1.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cruip/open-react-template.git"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "npm run dev",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env =jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@bit/digiaonline.react-foundation.progress-bar": "^0.9.6",
+    "@bit/reactstrap.reactstrap.input": "^8.4.1",
+    "mobx": "^6.3.2",
+    "mobx-react": "^7.2.0"
+  }
+}

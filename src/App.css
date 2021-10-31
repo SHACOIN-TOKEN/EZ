@@ -1,0 +1,60 @@
+.rainbow-align-content_center {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*background:red;*/
+    background-image: url("FarmLife_CloseUpsShots_beffio_3.jpg");
+}
+
+.rainbow-align-content_center_card {
+
+    background-image: url("FarmLife_CloseUpsShots_beffio_3.jpg");
+}
+
+.rainbow-align-content_center2 {
+    /* Internet Explorer 10 */
+
+
+    display: -webkit-flex;  /* 新版本语法: Chrome 21+ */
+    display: -webkit-box;   /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box;      /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox;   /* 混合版本语法: IE 10 */
+    display: flex;          /* 新版本语法: Opera 12.1, Firefox 22+ */
+
+    border:1px solid red;
+    display: -ms-flexbox;
+    flex-direction:column;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+    align-content: flex-start;
+    -ms-flex-align: start;
+    /*background:red;*/
+    background-image: url("image-asset(6).jpeg");
+}
+
+.rainbow-align-content_center3 {
+    border:1px solid red;
+    display:-webkit-box;
+}
+
+.rainbow-align-content_buton {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    -ms-flex-align: start;
+}
+
+.rainbow-m_auto {
+    margin: auto;
+}
+.rainbow-p-vertical_x-large {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+

@@ -1,0 +1,55 @@
+.app_bar{
+    display: block;
+    float: right;
+    border-radius: 0 0 225px 15px/0 0 15px 255px;
+    border-bottom: solid 3px #41403E;
+    border-left: solid rgba(0,0,0,0);
+    margin-left: 10px;
+    margin-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+.app_bar ul {
+    display: block;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.app_bar li {
+    float: right;
+    display: inline;
+    padding: 0;
+}
+
+.app_bar li a {
+    display: block;
+    float: right;
+    text-decoration: unset;
+    padding: 0;
+    color: #ffffff;
+}
+
+.app_bar li a * {
+    display: block;
+    float: right;
+    padding: 0;
+}
+
+.app_bar li a *:hover {
+    display: block;
+    float: right;
+    color: #ab3636;
+}
+
+.app_bar .logo {
+    float: right;
+}
+
+@media screen and (max-width: 680px) {
+    .app_bar .logo {
+        display: none;
+    }
+}
